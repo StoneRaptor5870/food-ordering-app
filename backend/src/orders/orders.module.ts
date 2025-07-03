@@ -7,9 +7,9 @@ import { OrderItem } from './entities/orderItem.entity';
 import { UsersModule } from '../users/users.module';
 import { RestaurantsModule } from '../restaurants/restaurants.module';
 import { PaymentsModule } from '../payments/payments.module';
-import { MenuItem } from 'src/restaurants/entities/menuItem.entity';
-import { Restaurant } from 'src/restaurants/entities/restaurant.entity';
-import { User } from 'src/users/entities/user.entity';
+import { MenuItem } from '../restaurants/entities/menuItem.entity';
+import { Restaurant } from '../restaurants/entities/restaurant.entity';
+import { User } from '../users/entities/user.entity';
 
 @Module({
   imports: [

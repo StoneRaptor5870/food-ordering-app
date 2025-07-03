@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, CreateDateColumn, JoinColumn, UpdateDateColumn } from 'typeorm';
 import { User } from '../../users/entities/user.entity';
 import { OrderItem } from './orderItem.entity';
-import { Restaurant } from 'src/restaurants/entities/restaurant.entity';
+import { Restaurant } from '../../restaurants/entities/restaurant.entity';
 
 export enum OrderStatus {
   PENDING = 'pending',
