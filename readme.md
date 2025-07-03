@@ -80,7 +80,7 @@ A comprehensive full-stack food ordering platform featuring role-based access co
 ### Tech Stack
 
 #### Frontend
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **UI Components**: Shadcn/ui
@@ -167,7 +167,7 @@ CREATE TABLE order_items (
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd foodie-hub
+cd directory
 ```
 
 ### 2. Backend Setup
@@ -182,6 +182,11 @@ npm install
 Create a `.env` file in the backend directory:
 ```env
 # Database Configuration
+DATABASE_URL=url
+
+OR
+
+
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=your_db_username

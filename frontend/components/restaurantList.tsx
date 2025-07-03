@@ -200,7 +200,7 @@ export default function RestaurantList(/*{ canPlaceOrders }: { canPlaceOrders: b
             {searchTerm && (
               <span>
                 {" "}
-                for `&quot;`<span className="font-medium">{searchTerm}</span>`&quot;`
+                for &quot;<span className="font-medium">{searchTerm}</span>&quot;
               </span>
             )}
             {countryFilter !== "all" && (

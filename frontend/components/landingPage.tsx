@@ -68,7 +68,7 @@ export default function LandingPage() {
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Discover amazing restaurants, order your favorite meals, and enjoy fast delivery. From local favorites to
-            international cuisine, we`&apos;`ve got it all!
+            international cuisine, we&apos;ve got it all!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button onClick={handleGetStarted} size="lg" className="text-lg px-8 py-3">
